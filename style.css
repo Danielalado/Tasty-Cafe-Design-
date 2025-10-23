@@ -187,3 +187,21 @@ ul li{
         flex-direction: column;
         justify-content: space-between;
     } */
+
+
+    .menu-images{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .menu-images img{
+        align-items: center;
+        justify-content: center;
+        border-radius: 1rem;
+        width: 90%;
+        height: 80%;
+        margin-bottom: 5rem;
+    }
