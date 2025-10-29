@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order</title>
+    <link rel="stylesheet" href="./style_order.css">
+</head>
+<body>
+
+    <section id="nav-bar">
+        <div class="nav-comtainer">
+            <div class="nav">
+
+                <div class="nav-logo">
+                    <a href="./index.html"><img src="./Images/cutlery (1).png" alt=""></a>
+                
+                <p><a href="./index.html">Tasty Cafe</a></p>
+                </div>
+
+                <div class="nav-links">
+                    <ul>
+                    <li class="home"><a href="./index.html">Home</a></li>
+                    <li class="categories"><a href="./index_categories.html">Categories</a></li>
+                    <li class="order"><a href="./index_order.html">Order</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="menu">
+        <div class="menu-content">
+                <div class="heading">
+                <img src="./Images/bag.png" alt="">
+                <h2>Place Your Order</h2>
+                <p>Fill in your details and we'll deiver to your doorstep.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="order">
+        <div class="form">
+
+            <form action="#">
+                <div class="name">
+                    <label for="name">Full Name</label>
+                    <input type="text" placeholder="John Doe" required>
+                </div>
+
+                <div class="email">
+                    <label for="email">Email</label>
+                    <input type="email" placeholder="john@example.com" required>
+
+                     <label for="phone">Phone Number</label>
+                    <input type="tel" placeholder="+1234567890" required>
+                </div>
+
+                <div class="address">
+                    <label for="address">Delivery Address</label>
+                    <textarea name="address" id="address" placeholder="123 Main Street, Apt 4B, City, State, ZIP"></textarea>
+                </div>
+
+                <div class="food">
+                    <label for="food">Food Item</label>
+                    <select name="food" id="food" required>
+                        <option value="">Select a food item</option>
+                        <option value="pizza">Pizza</option>
+                        <option value="pizza">Pizza</option>
+                        <option value="pizza">Pizza</option>
+                        <option value="pizza">Pizza</option>
+                        <option value="pizza">Pizza</option>
+                    </select>
+
+                    <label for="quantity">Quantity</label>
+                    <select name="quantity" id="quantity" required>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+
+                <div class="instructions">
+                    <label for="instructions">Special instructions(Opyional)</label>
+                    <textarea name="instructions" id="instructions" placeholder="Any dietary requirements or special requests..."></textarea>
+                </div>
+
+                <div class="button">
+                    <button type="submit">Place Order</button>
+                </div>
+                 
+            </form>
+
+        
+        </div>
+    </section>
+
+
+ <section id="footer">
+        <div class="footer-container">
+            <div class="social">
+                <div class="facebook">
+                    <img src="./Images/icon-facebook.svg" alt="">
+                </div>
+
+                <div class="instangram">
+                    <img src="./Images/icon-instagram.svg" alt="">
+                </div>
+
+                <div class="tweeter">
+                    <img src="./Images/icon-twitter.svg" alt="">
+                </div>
+
+                <div class="email">
+                    <img src="./Images/email.png" alt="">
+                </div>
+            </div>
+
+            <p class="footer">&copy; 2025 Tasty Cafe. All rights reserved.</p>
+        </div>
+
+</body>
+</html>
